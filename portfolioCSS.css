@@ -1,4 +1,5 @@
 body{
+  margin: auto;
   background-image: url("indexBackground.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -7,7 +8,7 @@ body{
   font: Georgia;
   color: #e26a5a;
   text-align: center;
-  border-bottom-style: : outset;
+  border-bottom-style:outset;
 }
 #cheesy_Quote{
   font: Times;
@@ -15,12 +16,37 @@ body{
   color: #dcdfe8;
   text-align: center;
 }
-p{
+#short_Bio{
   color: #dcdfe8;
   text-align: center;
 }
-
-div{
-  margin-top: 30;
-  margin-bottom: 30;
+#projects{
+  font: Times;
+  border-bottom: outset;
+  color: #dcdfe8;
+  text-align: center;
+}
+h3.project_Name{
+  font: Times;
+  color: #dcdfe8;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0;
+}
+h6.project_Lang{
+  font: Times;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+  color: #dcdfe8;
+  text-align: center;
+}
+p.project_Desc{
+  position:relative;
+  padding: 0;
+  margin-top: 10;
+  font: Times;
+  color: #dcdfe8;
+  text-align: center;
 }
