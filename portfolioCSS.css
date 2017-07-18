@@ -3,13 +3,16 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-h1{
-  color: red;
+#main_Heading{
+  font: Georgia;
+  color: #e26a5a;
   text-align: center;
-  border-style: outset;
+  border-bottom-style: : outset;
 }
-h3{
-  color: red;
+#cheesy_Quote{
+  font: Times;
+  font-style: italic;
+  color: #dcdfe8;
   text-align: center;
 }
 p{
