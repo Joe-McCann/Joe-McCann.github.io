@@ -1,11 +1,15 @@
 body{
-  background-color: #222326;
+  background-image: url("indexBackground.jpg");
 }
-h1,h3,p{
+h1,h3{
+  color: red;
+  text-align: center;
+}
+p{
   color: #dcdfe8;
   text-align: center;
 }
 
 div{
-  padding: 30;
+  padding: 300;
 }
