@@ -1,13 +1,13 @@
 var slideIndex = 1;
-showDivs(slideIndex);
+showDivs(slideIndex,"project");
 
-function plusDivs(n) {
-    showDivs(slideIndex += n);
+function plusDivs(n,string) {
+    showDivs(slideIndex += n,string);
 }
 
-function showDivs(n) {
+function showDivs(n,string) {
     var i;
-    var x = document.getElementsByClassName("project");
+    var x = document.getElementsByClassName(string);
     if (n > x.length) {slideIndex = 1}
     if (n < 1) {slideIndex = x.length} ;
     for (i = 0; i < x.length; i++) {
@@ -19,6 +19,7 @@ function showDivs(n) {
 
 function unfade(element) {
     var op = 0.1;  // initial opacity
+    element.style.opacity = op;
     element.style.display = 'block';
     var timer = setInterval(function () {
         if (op >= 1){
@@ -27,5 +28,5 @@ function unfade(element) {
         element.style.opacity = op;
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
         op += op * 0.1;
-    }, 50);
+    }, 30);
 }

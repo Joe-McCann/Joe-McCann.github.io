@@ -20,20 +20,32 @@ body{
   text-align: center;
   border-bottom-style:outset;
 }
-#projects{
+#coding_Project_Section{
+  position: relative;
+  text-align: center;
+  left:50%;
+  margin-left: -300px;
+  width:600px;
+  height: 512px;
+  left: center;
+  display: inline-block;
+}
+#projects_Title{
   font: Times;
-  color: #dcdfe8;
+  color: #e26a5a;
   text-align: center;
 }
 div.project{
+  width:100%;
   text-align: center;
+  position: absolute;
 }
 h3.project_Name{
   font: Times;
   color: #dcdfe8;
   text-align: center;
   padding: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 h6.project_Lang{
   font: Times;
@@ -52,10 +64,13 @@ p.project_Desc{
   color: #dcdfe8;
   text-align: center;
 }
+p.project_Link{
+  color: #dcdfe8;
+}
 img.project_Img {
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0;
-    width: 256px;
-    height: 128px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  width: 256px;
+  height: 128px;
 }
