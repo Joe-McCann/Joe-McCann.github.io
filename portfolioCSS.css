@@ -1,9 +1,16 @@
+html{
+  overflow-y: scroll;
+}
 body{
   margin: auto;
   background-image: url("indexBackground.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+/*div{
+  border-style: solid;
+  border-color: white;
+}*/
 #main_Heading{
   font: Georgia;
   color: #e26a5a;
@@ -20,17 +27,26 @@ body{
   text-align: center;
   border-bottom-style:outset;
 }
+
+#video_Projects{
+  position: absolute;
+  text-align: center;
+  left:0;
+  width:30%;
+  height: 700px;
+  display: inline-block;
+}
+
 #coding_Project_Section{
-  position: relative;
+  position: absolute;
   text-align: center;
   left:50%;
   margin-left: -300px;
-  width:600px;
-  height: 512px;
-  left: center;
+  width:40%;
+  height: 700px;
   display: inline-block;
 }
-#projects_Title{
+h2.projects_Title{
   font: Times;
   color: #e26a5a;
   text-align: center;
@@ -61,11 +77,13 @@ p.project_Desc{
   margin-top: 10;
   margin-bottom: 15;
   font: Times;
+  font-size: 18px;
   color: #dcdfe8;
   text-align: center;
 }
 p.project_Link{
   color: #dcdfe8;
+  font-size: 18px;
 }
 img.project_Img {
   display: inline-block;
