@@ -1,2 +1,2 @@
-# Joe-McCann.github.io
-Website for me is this actually reading the Readme
+# portfolio
+Website for Girls Who Code that is my "Portfolio"
