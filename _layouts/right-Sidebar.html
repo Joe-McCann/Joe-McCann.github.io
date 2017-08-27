@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<body class="right-sidebar">
+
+    {% include small-Header.html %}
+    <div class="wrapper style1">
+      <div class="container">
+      	<div class="row 200%">
+
+          {%include sidebar-Main.html%}
+      		{%include sidebar.html%}
+
+      	</div>
+				<hr />
+					{%include row.html%}
+      </div>
+    </div>
+		{% include footer.html %}
+
+		{% include js.html %}
+
+	</body>
+</html>

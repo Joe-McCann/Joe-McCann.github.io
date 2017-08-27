@@ -1,0 +1,12 @@
+<div class="row">
+  {% for post in site.categories.articles %}
+    <article class="4u special">
+      <a href="#" class="image featured"><img src="images/{{ post.img }}" alt="" /></a>
+      <header>
+        <h3><a href="#">{{ post.title }} </a></h3>
+      </header>
+      <p>{{ post.desc }}</p>
+    </article>
+  {% endfor %}
+</article>
+</div>
