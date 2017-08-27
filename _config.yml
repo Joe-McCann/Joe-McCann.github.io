@@ -1,8 +1,8 @@
 # Site settings
-title: Helios
-url: https://zovfreullia.github.io/Helios-Jekyll/
+title: WJM
+author: William Joseph McCann
+url: 127.0.0.1
 localhost: 4000
 
 # Build settings
 markdown: kramdown
-permalink: pretty
