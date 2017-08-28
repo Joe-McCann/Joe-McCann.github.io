@@ -1,5 +1,5 @@
 ---
 layout: no-Sidebar
-mainTitle: William Joe McCann
+mainTitle: This is the test Page
 subText: An assortment of various projects from various fields
 ---

@@ -1,9 +1,15 @@
  <!-- jQuery Version 1.11.0 -->
-    {%include scripts.html%}
-    <script src={{site.baseurl}}{{ "/js/jquery.dropotron.min.js" }}></script>
-    <script src={{site.baseurl}}{{ "/js/jquery.min.js"}}></script>
-    <script src={{site.baseurl}}{{ "/js/jquery.onvisible.js"}}></script>
-    <script src={{site.baseurl}}{{ "/js/jquery.scrolly.min.js" }}></script>
-    <script src={{site.baseurl}}{{ "/js/skel-layers.min.js"}}></script>
-    <script src={{site.baseurl}}{{ "/js/skel.min.js"}}></script>
-    <script src={{site.baseurl}}{{ "/js/init.js"}}></script>
+     <script src={{site.baseurl}}{{'js/jquery.min.js'| absolute_url}}></script>
+     <script src="{{site.baseurl}}{{'js/jquery.dropotron.min.js'| absolute_url}}"></script>
+     <script src="{{site.baseurl}}{{'js/jquery.scrolly.min.js'| absolute_url}}"></script>
+     <script src="{{site.baseurl}}{{'js/jquery.onvisible.min.js'| absolute_url}}"></script>
+     <script src={{site.baseurl}}{{'js/skel.min.js'| absolute_url}}></script>
+     <script src={{site.baseurl}}{{'js/skel-layers.min.js'| absolute_url}}></script>
+     <script src={{site.baseurl}}{{'js/init.js'| absolute_url}}></script>
+
+     <noscript>
+       <link rel="stylesheet" href="{{site.baseurl}}{{'css/skel.css'}}" />
+       <link rel="stylesheet" href="{{site.baseurl}}{{'css/style.css'}}" />
+       <link rel="stylesheet" href="{{site.baseurl}}{{'css/style-desktop.css'}}" />
+       <link rel="stylesheet" href="{{site.baseurl}}{{'css/style-noscript.css'}}" />
+     </noscript>
