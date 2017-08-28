@@ -689,7 +689,7 @@
 	#header
 	{
 		position: relative;
-		background-image: url('../images/header.jpg');
+		background-image: url({{site.baseurl}}{{'/images/header.jpg'| absolute_url}});
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
