@@ -1,7 +1,7 @@
 <div class="row">
   {% for post in site.categories.articles %}
     <article class="4u special">
-      <a href="{{post.url}}" class="image featured"><img src="images/{{ post.img }}" alt="" /></a>
+      <a href="{{post.url}}" class="image featured"><img src="{{site.baseurl}}{{images/{{ post.img }}}}" alt="" /></a>
       <header>
         <h3><a href="{{post.url}}">{{ post.title }} </a></h3>
       </header>
