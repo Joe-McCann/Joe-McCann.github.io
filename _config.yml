@@ -1,7 +1,8 @@
 # Site settings
 title: WJM
 author: William Joseph McCann
-url: 127.0.0.1
+#url: 127.0.0.1
+url: joe-mccann.github.io
 localhost: 4000
 
 # Build settings
