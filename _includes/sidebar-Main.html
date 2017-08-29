@@ -1,12 +1,12 @@
 <div class="8u" id="content">
   <article id="main">
     <header>
-      <h2><a href="#">Right Sidebar</a></h2>
+      <h2><a href="{{page.url| absolute_url}}">{{page.title}}</a></h2>
       <p>
-        Morbi convallis lectus malesuada sed fermentum dolore amet
+        <i>{{page.desc}}</i>
       </p>
     </header>
-    <a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+    <a href="{{page.url | absolute_url}}" class="image featured"><img src="{{page.img | absolute_url}}"/></a>
     <p>
       Commodo id natoque malesuada sollicitudin elit suscipit. Curae suspendisse mauris posuere accumsan massa
       posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus

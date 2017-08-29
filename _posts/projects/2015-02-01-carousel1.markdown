@@ -1,7 +1,14 @@
 ---
 layout: left-Sidebar
 title: C++ Big Int Class
-desc: This is a sample post that is added under the "desc" part of the YAML.
-img: pic01.jpg
+desc: For when 18,446,744,073,709,551,615 just isn't big enough
+img: images/pic01.jpg
 categories: carousel
+sidebar-items:
+  - image: images/pic10.jpg
+    title: Hello
+    description: Bye. What would happen here if I wrote a really long description that went multiple lines over?
+  - image: images/pic11.jpg
+    title: Second Picture
+    description: Second Description
 ---

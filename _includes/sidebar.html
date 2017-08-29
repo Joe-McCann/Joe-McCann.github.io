@@ -1,26 +1,48 @@
+
 <div class="4u" id="sidebar">
   <hr class="first" />
+  <!--Main section of the sidebar, unnessesary for now
   <section>
     <header>
-      <h3><a href="#">Accumsan sed penatibus</a></h3>
+      <h3><a href="#">Additional Information</a></h3>
     </header>
     <p>
-      Dolor sed fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-      porttitor phasellus tempus cubilia ultrices tempor sagittis  tellus ante diam nec penatibus dolor cras
-      magna tempus feugiat veroeros.
+      Here are some additional supplimentary pictures and captions
+      about the project, to help you get a better feel for what
+      the whole work is like
     </p>
     <footer>
       <a href="#" class="button">Learn More</a>
     </footer>
   </section>
+
   <hr />
+  -->
   <section>
     <header>
-      <h3><a href="#">Sed lorem etiam consequat</a></h3>
+      <h3><a href="#">Additional Information</a></h3>
     </header>
     <p>
-      Tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+      Here are some additional supplimentary pictures and captions
+      about the project, to help you get a better feel for what
+      the whole work is like
     </p>
+
+    {% for item in page.sidebar-items %}
+    <div class="row 50% no-collapse">
+      <div class="4u">
+        <a href="#" class="image fit"><img src='{{item.image|absolute_url}}'/></a>
+      </div>
+      <div class="8u">
+        <h4>{{item.title}}</h4>
+        <p>
+          {{item.description}}
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+
+    <!--
     <div class="row 50% no-collapse">
       <div class="4u">
         <a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
@@ -32,6 +54,7 @@
         </p>
       </div>
     </div>
+
     <div class="row 50% no-collapse">
       <div class="4u">
         <a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
@@ -43,6 +66,7 @@
         </p>
       </div>
     </div>
+
     <div class="row 50% no-collapse">
       <div class="4u">
         <a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
@@ -54,6 +78,7 @@
         </p>
       </div>
     </div>
+
     <div class="row 50% no-collapse">
       <div class="4u">
         <a href="#" class="image fit"><img src="images/pic13.jpg" alt="" /></a>
@@ -65,6 +90,7 @@
         </p>
       </div>
     </div>
+
     <div class="row 50% no-collapse">
       <div class="4u">
         <a href="#" class="image fit"><img src="images/pic14.jpg" alt="" /></a>
@@ -76,8 +102,11 @@
         </p>
       </div>
     </div>
+    -->
+    <!-- Unneeded button
     <footer>
       <a href="#" class="button">Magna Adipiscing</a>
     </footer>
+    -->
   </section>
 </div>

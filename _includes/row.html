@@ -1,7 +1,7 @@
 <div class="row">
   {% for post in site.categories.articles %}
     <article class="4u special">
-      <a href="{{post.linked-url}}" class="image featured"><img src="images/{{ post.img }}" alt="" /></a>
+      <a href="{{post.linked-url}}" class="image featured"><img src="{{ post.img | absolute_url}}" alt="" /></a>
       <header>
         <h3><a href="{{post.linked-url}}">{{ post.title }} </a></h3>
       </header>
