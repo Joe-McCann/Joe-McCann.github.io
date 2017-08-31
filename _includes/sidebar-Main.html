@@ -7,14 +7,41 @@
       </p>
     </header>
     <a href="{{page.url | absolute_url}}" class="image featured"><img src="{{page.img | absolute_url}}"/></a>
-    <p>
-      Commodo id natoque malesuada sollicitudin elit suscipit. Curae suspendisse mauris posuere accumsan massa
-      posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus
-      lobortis. Auctor etiam porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum
-      consequat integer interdum integer purus sapien. Nibh eleifend nulla nascetur pharetra commodo mi augue
-      interdum tellus. Ornare cursus augue feugiat sodales velit lorem. Semper elementum ullamcorper lacinia
-      natoque aenean scelerisque vel lacinia mollis quam sodales congue.
-    </p>
+
+    {% for item in page.main-items %}
+    <section>
+      <header>
+        <h3>{{item.title}}</h3>
+      </header>
+      <p>
+        {{item.text}}
+      </p>
+    </section>
+    {% endfor %}
+
+<!--    {% if page.content != "" %}
+    <section>
+      <header>
+        <h3>Here's a snip of code from the poject!</h3>
+      </header>
+      <p>
+        {{page.content}}
+      </p>
+    </section>
+    {% endif %}-->
+
+    {% if page.github-link %}
+    <section>
+      <header>
+        <a href = {{page.github-link}} target="_blank">
+          <h3>Click here to check it out on github!</h3>
+        </a>
+      </header>
+    </section>
+    {% endif %}
+
+
+<!--
     <section>
       <header>
         <h3>Ultrices tempor sagittis nisl</h3>
@@ -43,5 +70,6 @@
         egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
       </p>
     </section>
+-->
   </article>
 </div>

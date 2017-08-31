@@ -7,4 +7,3 @@ localhost: 4000
 
 # Build settings
 markdown: kramdown
-highlighter: rogue

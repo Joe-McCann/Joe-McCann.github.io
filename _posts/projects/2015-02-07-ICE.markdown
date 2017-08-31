@@ -1,8 +1,10 @@
 ---
-layout: left-Sidebar
-img: images/pic06.jpg
-title: William Joe McCann
-desc: An assortment of various projects from various fields
+layout: right-Sidebar
+title: I.C.E.
+desc: Making music more enjoyable by listening with your eyes
+img: images/pic02.jpg
+categories: carousel
+
 sidebar-items:
   - image: images/pic10.jpg
     title: Hello
@@ -25,4 +27,6 @@ main-items:
       feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
       ut nunc urna volutpat donec cubilia commodo risus morbi. Lobortis vestibulum velit malesuada ante
       egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+
+github-link: https://github.com/Joe-McCann/My-Projects/tree/master/C%2B%2B/C%20%2B%2B%20Big%20Integer%20Class
 ---
