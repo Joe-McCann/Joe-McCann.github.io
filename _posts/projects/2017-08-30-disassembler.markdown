@@ -2,17 +2,17 @@
 layout: right-Sidebar
 title: ASM Disassembler
 desc: As is assembly language wasn't hard enough
-img: images/projectPics/Disassembler/featuredPic.jpg
+img: images/projectPics/Disassembler/featuredPic.JPG
 categories: carousel code-projects
 
 sidebar-items:
-  - image: images/projectPics/Disassembler/sidePic1.jpg
+  - image: images/projectPics/Disassembler/sidePic1.JPG
     title: Source code example
     description: A look inside the C++ code used to create this project.
-  - image: images/projectPics/Disassembler/sidePic2.jpg
+  - image: images/projectPics/Disassembler/sidePic2.JPG
     title: Other file example
     description: Another example of a decoded hexfile
-  - image: images/projectPics/Disassembler/sidePic3.jpg
+  - image: images/projectPics/Disassembler/sidePic3.JPG
     title: Inside a Hexfile
     description: This is what the inside of a hexfile looks like
 main-items:

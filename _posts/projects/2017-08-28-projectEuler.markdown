@@ -2,17 +2,17 @@
 layout: right-Sidebar
 title: Project Euler
 desc: The only way to make CS more fun is to add math... and make it competitive
-img: images/projectPics/projectEuler/featuredPic.jpg
+img: images/projectPics/projectEuler/featuredPic.JPG
 categories: carousel code-projects
 
 sidebar-items:
-  - image: images/projectPics/projectEuler/sidePic1.jpg
+  - image: images/projectPics/projectEuler/sidePic1.JPG
     title: The Problem
     description: The text of problem number 61
-  - image: images/projectPics/projectEuler/sidePic2.jpg
+  - image: images/projectPics/projectEuler/sidePic2.JPG
     title: The Solution
     description: Part of my code solution to problem number 62
-  - image: images/projectPics/projectEuler/sidePic3.jpg
+  - image: images/projectPics/projectEuler/sidePic3.JPG
     title: The Answer
     description: And the solution to problem number 61!
 main-items:

@@ -2,16 +2,16 @@
 layout: right-Sidebar
 title: Love Calculator
 desc: 100% certified not accurate, but tons of "what if" fun
-img: images/projectPics/loveCalc/featuredPic.jpg
+img: images/projectPics/loveCalc/featuredPic.JPG
 categories: carousel code-projects
 sidebar-items:
-  - image: images/projectPics/loveCalc/sidePic1.jpg
+  - image: images/projectPics/loveCalc/sidePic1.JPG
     title: Default GUI
     description: Important to note that the "couple name" is an optional input.
-  - image: images/projectPics/loveCalc/sidePic2.jpg
+  - image: images/projectPics/loveCalc/sidePic2.JPG
     title: Source Code Example
     description: A look at the calculations done to determine the "love score".
-  - image: images/projectPics/loveCalc/sidePic3.jpg
+  - image: images/projectPics/loveCalc/sidePic3.JPG
     title: Use example
     description: Example showing that <b>any</b> name will work with this calculator.
 main-items:

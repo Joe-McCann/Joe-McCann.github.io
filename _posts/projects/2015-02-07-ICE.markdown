@@ -2,17 +2,17 @@
 layout: right-Sidebar
 title: I.C.E.
 desc: Making music more enjoyable by listening with your eyes
-img: images/projectPics/ice/featuredPic.jpg
+img: images/projectPics/ice/featuredPic.JPG
 categories: carousel code-projects
 
 sidebar-items:
-  - image: images/projectPics/ice/sidePic1.jpg
+  - image: images/projectPics/ice/sidePic1.JPG
     title: GUI Used
     description: This is the GUI used to select a song, color, and elasticity. GUI goes through the folder to populate with songs
-  - image: images/projectPics/ice/sidePic2.jpg
+  - image: images/projectPics/ice/sidePic2.JPG
     title: The Lights
     description: Here is the screen which the colors change in tandem with the song
-  - image: images/projectPics/ice/sidePic3.jpg
+  - image: images/projectPics/ice/sidePic3.JPG
     title: Source Code Shot
     description: Here is a snip of the source code for the project.
 main-items:

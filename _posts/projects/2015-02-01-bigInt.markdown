@@ -2,16 +2,16 @@
 layout: right-Sidebar
 title: C++ Big Int Class
 desc: For when 18,446,744,073,709,551,615 just isn't big enough
-img: images/projectPics/bigInt/featuredPic.jpg
+img: images/projectPics/bigInt/featuredPic.JPG
 categories: carousel code-projects
 sidebar-items:
-  - image: images/projectPics/bigInt/sidePic1.jpg
+  - image: images/projectPics/bigInt/sidePic1.JPG
     title: Source code example
     description: Here is an example of how easy integrating "big int" into your project can be! Its just like any other numeral data-type
-  - image: images/projectPics/bigInt/sidePic2.jpg
+  - image: images/projectPics/bigInt/sidePic2.JPG
     title: Division Function
     description: Here's a sneak peak into the division operator that I wrote for the class.
-  - image: images/projectPics/bigInt/sidePic3.jpg
+  - image: images/projectPics/bigInt/sidePic3.JPG
     title: Operator Overload
     description: Here's just a sample of the operators overloaded in order to make the user experience as streamlined as possible.
 main-items:

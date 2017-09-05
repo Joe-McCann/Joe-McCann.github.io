@@ -2,17 +2,17 @@
 layout: right-Sidebar
 title: Final Exam Calculator
 desc: Because what you don't know, can sometimes hurt you
-img: images/projectPics/finalGrader/featuredPic.jpg
+img: images/projectPics/finalGrader/featuredPic.JPG
 categories: carousel code-projects
 
 sidebar-items:
-  - image: images/projectPics/finalGrader/sidePic1.jpg
+  - image: images/projectPics/finalGrader/sidePic1.JPG
     title: Source code example
     description: A look inside the Java code used to create this project.
-  - image: images/projectPics/finalGrader/sidePic2.jpg
+  - image: images/projectPics/finalGrader/sidePic2.JPG
     title: Default layout
     description: This is the amount of input boxes that are displayed normally by the program but...
-  - image: images/projectPics/finalGrader/sidePic3.jpg
+  - image: images/projectPics/finalGrader/sidePic3.JPG
     title: Adding more inputs
     description: ...the user is free to add as many as they desire!
 main-items:

@@ -2,17 +2,17 @@
 layout: right-Sidebar
 title: Video Projects
 desc: Video editing skills are just nice skills to have
-img: images/projectPics/videos/featuredPic.jpg
+img: images/projectPics/videos/featuredPic.JPG
 categories: carousel other-projects
 
 sidebar-items:
-  - image: images/projectPics/videos/sidePic1.jpg
+  - image: images/projectPics/videos/sidePic1.JPG
     title: My Youtube Channel
     description: While not super populated, here is a picture of the uploads on my YouTube Channel
-  - image: images/projectPics/videos/sidePic2.jpg
+  - image: images/projectPics/videos/sidePic2.JPG
     title: One of my videos
     description: A picture of one of my videos. Footage shot with my phone camera, which is better than expected
-  - image: images/projectPics/videos/sidePic3.jpg
+  - image: images/projectPics/videos/sidePic3.JPG
     title: Another one of my videos
     description: Another picture of one of my videos
 main-items:
