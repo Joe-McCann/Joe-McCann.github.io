@@ -2,7 +2,7 @@
 layout: right-Sidebar
 title: I.C.E.
 desc: Making music more enjoyable by listening with your eyes
-img: images/projectPics/ice/featuredPic.JPG
+img: images/projectPics/ice/featuredPic.jpg
 categories: carousel code-projects
 
 sidebar-items:

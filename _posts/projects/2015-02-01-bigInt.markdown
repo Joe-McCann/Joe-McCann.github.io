@@ -2,7 +2,7 @@
 layout: right-Sidebar
 title: C++ Big Int Class
 desc: For when 18,446,744,073,709,551,615 just isn't big enough
-img: images/projectPics/bigInt/featuredPic.JPG
+img: images/projectPics/bigInt/featuredpic.JPG
 categories: carousel code-projects
 sidebar-items:
   - image: images/projectPics/bigInt/sidePic1.JPG
