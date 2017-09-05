@@ -2,31 +2,33 @@
 layout: right-Sidebar
 title: Love Calculator
 desc: 100% certified not accurate, but tons of "what if" fun
-img: images/pic03.jpg
-categories: carousel
-
+img: images/projectPics/loveCalc/featuredPic.jpg
+categories: carousel code-projects
 sidebar-items:
-  - image: images/pic10.jpg
-    title: Hello
-    description: Bye. What would happen here if I wrote a really long description that went multiple lines over?
-  - image: images/pic11.jpg
-    title: Second Picture
-    description: Second Description
+  - image: images/projectPics/loveCalc/sidePic1.jpg
+    title: Default GUI
+    description: Important to note that the "couple name" is an optional input.
+  - image: images/projectPics/loveCalc/sidePic2.jpg
+    title: Source Code Example
+    description: A look at the calculations done to determine the "love score".
+  - image: images/projectPics/loveCalc/sidePic3.jpg
+    title: Use example
+    description: Example showing that <b>any</b> name will work with this calculator.
 main-items:
-  - title: Ultrices tempor sagittis nisl
+  - title: The purpose
     text: |
-      Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-      at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-      feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-      fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-      egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+      One day a group of friends and I were just hanging out and having a bunch of dumb fun on the
+      <a href="https://www.lovecalculator.com/"> Love Calculator Website </a>. While just jokingly inputting the names of some our friends,
+      we noticed that the calculator did not seem to work with a bunch of our Indian friend's names. There also
+      seemed to be a distinguishable pattern with the values that the calculator gave out. I then set out to make my
+      own version that would work with not only any name, but would also provide a unique value determined by both inputs.
 
-  - title: Augue euismod feugiat tempus
+  - title: What's so cool about this?
     text: |
-      Pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-      feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-      ut nunc urna volutpat donec cubilia commodo risus morbi. Lobortis vestibulum velit malesuada ante
-      egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+      The application was styled using JavaFX and CSS stylesheets to make it look better than a set of plain text boxes.
+      In order to make the application work for any potential combination of names, and spit out a answer dependant
+      on those inputs, the names were converted into sets of numbers. From there some matrix calculations are
+      performed to come up with the correct output number.
 
 github-link: https://github.com/Joe-McCann/My-Projects/tree/master/C%2B%2B/C%20%2B%2B%20Big%20Integer%20Class
 ---

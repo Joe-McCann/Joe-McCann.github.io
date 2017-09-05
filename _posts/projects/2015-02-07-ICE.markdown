@@ -2,31 +2,37 @@
 layout: right-Sidebar
 title: I.C.E.
 desc: Making music more enjoyable by listening with your eyes
-img: images/pic02.jpg
-categories: carousel
+img: images/projectPics/ice/featuredPic.jpg
+categories: carousel code-projects
 
 sidebar-items:
-  - image: images/pic10.jpg
-    title: Hello
-    description: Bye. What would happen here if I wrote a really long description that went multiple lines over?
-  - image: images/pic11.jpg
-    title: Second Picture
-    description: Second Description
+  - image: images/projectPics/ice/sidePic1.jpg
+    title: GUI Used
+    description: This is the GUI used to select a song, color, and elasticity. GUI goes through the folder to populate with songs
+  - image: images/projectPics/ice/sidePic2.jpg
+    title: The Lights
+    description: Here is the screen which the colors change in tandem with the song
+  - image: images/projectPics/ice/sidePic3.jpg
+    title: Source Code Shot
+    description: Here is a snip of the source code for the project.
 main-items:
-  - title: Ultrices tempor sagittis nisl
+  - title: The purpose
     text: |
-      Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-      at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-      feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-      fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-      egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+      Inspired by a superbowl commercial a few years back, I always wanted to create a way to
+      have lights and colors follow the flow and feel of given musical pieces. Originally created
+      as a senior capstone project for high school, I redesigned it in Python using new knowledge
+      I had aqcuired in my first college semester. As for the bigger purpose, I just thought the
+      listening experience would be enhanced by having a single light grow or decay in relation to
+      what you were hearing (it is).
+  - title: What's so cool about this?
+    text: |
+      This program is literally my pride in joy. Having tinkered with it for weeks on end, I learned
+      about a plethora of new libraries and methods, such as numpy, tkinter, colorsys, serial, etc.
+      The project originally read through the entire song at once to come up with the optimal light (in HSL)
+      value to display. However this took much too long, so I created my own way to calculate an estimated
+      version of this on the fly. From there I learned how to use the tkinter library such that I could
+      create a GUI to select a certain song.
 
-  - title: Augue euismod feugiat tempus
-    text: |
-      Pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-      feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-      ut nunc urna volutpat donec cubilia commodo risus morbi. Lobortis vestibulum velit malesuada ante
-      egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
 
 github-link: https://github.com/Joe-McCann/My-Projects/tree/master/C%2B%2B/C%20%2B%2B%20Big%20Integer%20Class
 ---

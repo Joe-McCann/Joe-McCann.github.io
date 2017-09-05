@@ -31,7 +31,7 @@
     {% for item in page.sidebar-items %}
     <div class="row 50% no-collapse">
       <div class="4u">
-        <a href="#" class="image fit"><img src='{{item.image|absolute_url}}'/></a>
+        <a href="{{item.image|absolute_url}}" class="image fit" target="_blank"><img src='{{item.image|absolute_url}}'/></a>
       </div>
       <div class="8u">
         <h4>{{item.title}}</h4>

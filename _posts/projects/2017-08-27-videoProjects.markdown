@@ -2,31 +2,31 @@
 layout: right-Sidebar
 title: Video Projects
 desc: Video editing skills are just nice skills to have
-img: images/pic01.jpg
-categories: carousel
+img: images/projectPics/videos/featuredPic.jpg
+categories: carousel other-projects
 
 sidebar-items:
-  - image: images/pic10.jpg
-    title: Hello
-    description: Bye. What would happen here if I wrote a really long description that went multiple lines over?
-  - image: images/pic11.jpg
-    title: Second Picture
-    description: Second Description
+  - image: images/projectPics/videos/sidePic1.jpg
+    title: My Youtube Channel
+    description: While not super populated, here is a picture of the uploads on my YouTube Channel
+  - image: images/projectPics/videos/sidePic2.jpg
+    title: One of my videos
+    description: A picture of one of my videos. Footage shot with my phone camera, which is better than expected
+  - image: images/projectPics/videos/sidePic3.jpg
+    title: Another one of my videos
+    description: Another picture of one of my videos
 main-items:
-  - title: Ultrices tempor sagittis nisl
+  - title: The purpose
     text: |
-      Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-      at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-      feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-      fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-      egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
-
-  - title: Augue euismod feugiat tempus
+      I've always found that I have a minor side-passion when it comes to video editing. A good skill
+      in video editing can create so many cool things for several different occasions. Other than
+      that mainly I just do these sorts of projects for fun!
+  - title: What's so cool about this?
     text: |
-      Pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-      feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-      ut nunc urna volutpat donec cubilia commodo risus morbi. Lobortis vestibulum velit malesuada ante
-      egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
-
-github-link: https://github.com/Joe-McCann/My-Projects/tree/master/C%2B%2B/C%20%2B%2B%20Big%20Integer%20Class
+      By using programs such Adobe Premiere, I was able to stitch together all sorts of
+      different clips to create fun videos. The best video I created was my send off
+      video for my high school class, entitled "4 Years at the Academy [End Credits]".
+      <u><a href="https://www.youtube.com/channel/UCSZ8SVk18Br-Tl_prWV2XcQ">
+      You can check out all of these videos on my main Youtube channel (also linked in the
+      website footer)</a></u>
 ---

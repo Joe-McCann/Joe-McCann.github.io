@@ -3,14 +3,15 @@
     <ul>
       <li><a href={{site.baseurl}}{%link index.html %}>Home</a></li>
 
-      <!-- In the event I want a dropdown menu
       <li>
-        <a href="">Dropdown</a>
+        <a href="">Programming Projects</a>
         <ul>
-          <li><a href="#">Lorem ipsum dolor</a></li>
-          <li><a href="#">Magna phasellus</a></li>
-          <li><a href="#">Etiam dolore nisl</a></li>
-          <li>
+          {% for post in site.categories.code-projects %}
+            <li>
+                <a href="{{post.url| absolute_url}}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+          <!--<li>
             <a href="">And a submenu &hellip;</a>
             <ul>
               <li><a href="#">Lorem ipsum dolor</a></li>
@@ -18,16 +19,27 @@
               <li><a href="#">Magna phasellus</a></li>
               <li><a href="#">Etiam dolore nisl</a></li>
             </ul>
-          </li>
-          <li><a href="#">Veroeros feugiat</a></li>
+          </li>-->
         </ul>
       </li>
-    -->
 
+
+            <li>
+              <a href="">Other Projects</a>
+              <ul>
+                {% for post in site.categories.other-projects %}
+                  <li>
+                      <a href="{{post.url| absolute_url}}">{{ post.title }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </li>
+
+      <!--
       <li><a href={{site.baseurl}}{%link left-sidebar.html %}>Left Sidebar</a></li>
       <li><a href={{site.baseurl}}{%link right-sidebar.html %}>Right Sidebar</a></li>
       <li><a href={{site.baseurl}}{%link right-sidebar.html %}>No Sidebar</a></li>
       <li><a href={{site.baseurl}}{%link new.markdown %}>Test Page</a></li>
-
+      -->
     </ul>
   </nav>

@@ -2,31 +2,33 @@
 layout: right-Sidebar
 title: ASM Disassembler
 desc: As is assembly language wasn't hard enough
-img: images/pic05.jpg
-categories: carousel
+img: images/projectPics/Disassembler/featuredPic.jpg
+categories: carousel code-projects
 
 sidebar-items:
-  - image: images/pic10.jpg
-    title: Hello
-    description: Bye. What would happen here if I wrote a really long description that went multiple lines over?
-  - image: images/pic11.jpg
-    title: Second Picture
-    description: Second Description
+  - image: images/projectPics/Disassembler/sidePic1.jpg
+    title: Source code example
+    description: A look inside the C++ code used to create this project.
+  - image: images/projectPics/Disassembler/sidePic2.jpg
+    title: Other file example
+    description: Another example of a decoded hexfile
+  - image: images/projectPics/Disassembler/sidePic3.jpg
+    title: Inside a Hexfile
+    description: This is what the inside of a hexfile looks like
 main-items:
-  - title: Ultrices tempor sagittis nisl
+  - title: The purpose
     text: |
-      Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-      at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-      feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-      fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-      egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+      This code was written and created for an extra credit project in high school. The program was designed
+      to take basic hex assembly code from the PIC microcontroller, and reconvert it back in to "English"
+      assembly code.
 
-  - title: Augue euismod feugiat tempus
+  - title: What's so cool about this?
     text: |
-      Pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-      feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-      ut nunc urna volutpat donec cubilia commodo risus morbi. Lobortis vestibulum velit malesuada ante
-      egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+      This code was pretty cool because I was able to take hex files that we used from our own
+      class assembly projects, and convert them back into assembly code. While certainly not the most
+      glamorous of the projects I've created, it was interesting to create a parser that would read through
+      the hex file and determine which command was which. This was all in line with the command
+      documentation provided by the PIC microcontroller data-sheets
 
 github-link: https://github.com/Joe-McCann/My-Projects/tree/master/C%2B%2B/C%20%2B%2B%20Big%20Integer%20Class
 ---

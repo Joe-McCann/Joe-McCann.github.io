@@ -2,30 +2,35 @@
 layout: right-Sidebar
 title: C++ Big Int Class
 desc: For when 18,446,744,073,709,551,615 just isn't big enough
-img: images/pic01.jpg
-categories: carousel
+img: images/projectPics/bigInt/featuredPic.jpg
+categories: carousel code-projects
 sidebar-items:
-  - image: images/pic10.jpg
-    title: Hello
-    description: Bye. What would happen here if I wrote a really long description that went multiple lines over?
-  - image: images/pic11.jpg
-    title: Second Picture
-    description: Second Description
+  - image: images/projectPics/bigInt/sidePic1.jpg
+    title: Source code example
+    description: Here is an example of how easy integrating "big int" into your project can be! Its just like any other numeral data-type
+  - image: images/projectPics/bigInt/sidePic2.jpg
+    title: Division Function
+    description: Here's a sneak peak into the division operator that I wrote for the class.
+  - image: images/projectPics/bigInt/sidePic3.jpg
+    title: Operator Overload
+    description: Here's just a sample of the operators overloaded in order to make the user experience as streamlined as possible.
 main-items:
-  - title: Ultrices tempor sagittis nisl
+  - title: The purpose
     text: |
-      Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-      at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-      feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-      fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-      egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+      There comes a time in ever young C++ programmer's development career in which they realize, "the numbers
+      I can use just aren't big enough for this." This problem certainly happened for me quite a big during
+      programming/math challenges like the Purple Comet exam and Project Euler problems; and honestly I was sick of it. I decided to
+      take destiny into my own hands and write a class that solved this issue.
 
-  - title: Augue euismod feugiat tempus
+  - title: What's so cool about this?
     text: |
-      Pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-      feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-      ut nunc urna volutpat donec cubilia commodo risus morbi. Lobortis vestibulum velit malesuada ante
-      egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+      Using C++ vectors, each individual digit was stored as an char in an "int" vector. While not
+      incredibly effeceint in terms of storage, it worked for my needs. From here I implimented every
+      basic math function literally from the ground up; digit based addition, semi-repeated addition for multiplication, etc.
+      Since everything was digit based, whenever I built a new function, I could only use the functions
+      I had already wrote prior as groundwork. All of this coupled together makes this one of the projects
+      I am most proud of.
+
 
 github-link: https://github.com/Joe-McCann/My-Projects/tree/master/C%2B%2B/C%20%2B%2B%20Big%20Integer%20Class
 ---

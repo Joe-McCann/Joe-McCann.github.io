@@ -2,31 +2,33 @@
 layout: right-Sidebar
 title: Final Exam Calculator
 desc: Because what you don't know, can sometimes hurt you
-img: images/pic02.jpg
-categories: carousel
+img: images/projectPics/finalGrader/featuredPic.jpg
+categories: carousel code-projects
 
 sidebar-items:
-  - image: images/pic10.jpg
-    title: Hello
-    description: Bye. What would happen here if I wrote a really long description that went multiple lines over?
-  - image: images/pic11.jpg
-    title: Second Picture
-    description: Second Description
+  - image: images/projectPics/finalGrader/sidePic1.jpg
+    title: Source code example
+    description: A look inside the Java code used to create this project.
+  - image: images/projectPics/finalGrader/sidePic2.jpg
+    title: Default layout
+    description: This is the amount of input boxes that are displayed normally by the program but...
+  - image: images/projectPics/finalGrader/sidePic3.jpg
+    title: Adding more inputs
+    description: ...the user is free to add as many as they desire!
 main-items:
-  - title: Ultrices tempor sagittis nisl
+  - title: The purpose
     text: |
-      Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-      at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-      feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-      fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-      egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+      Final's week is every student's worst nightmare; whether you are in college, or high school. With so much on the line,
+      sometimes a student wants to know exactly how well they have to do on a certain test, in order to make their
+      own benchmark. This is where the final exam grade calculator comes in handy.
 
-  - title: Augue euismod feugiat tempus
+  - title: What's so cool about this?
     text: |
-      Pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-      feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-      ut nunc urna volutpat donec cubilia commodo risus morbi. Lobortis vestibulum velit malesuada ante
-      egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+      Every class is different, so I wanted to create flexibility with the program, such that the code wouldn't
+      need to be modified each time its used for a different class. This was accomplished using arrays of input elements,
+      i.e. the row of text boxes. From there the program not only calculates what grade will happen for every final
+      score multiple of 5, but also where that lands in relation to the students target grade.
+
 
 github-link: https://github.com/Joe-McCann/My-Projects/tree/master/C%2B%2B/C%20%2B%2B%20Big%20Integer%20Class
 ---
