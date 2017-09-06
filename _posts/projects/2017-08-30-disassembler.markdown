@@ -1,7 +1,7 @@
 ---
 layout: right-Sidebar
 title: ASM Disassembler
-desc: As is assembly language wasn't hard enough
+desc: As if assembly language wasn't hard enough
 img: images/projectPics/Disassembler/featuredPic.JPG
 categories: carousel code-projects
 
