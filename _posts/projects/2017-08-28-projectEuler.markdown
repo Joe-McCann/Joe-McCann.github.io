@@ -30,5 +30,5 @@ main-items:
       mathematical concepts and algorithms as well, which have found use in other projects.
 
 
-github-link: https://github.com/Joe-McCann/My-Projects/tree/master/C%2B%2B/C%20%2B%2B%20Big%20Integer%20Class
+github-link: https://github.com/Joe-McCann/My-Projects/tree/master/Project%20Euler%20Problems
 ---

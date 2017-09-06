@@ -30,5 +30,5 @@ main-items:
       on those inputs, the names were converted into sets of numbers. From there some matrix calculations are
       performed to come up with the correct output number.
 
-github-link: https://github.com/Joe-McCann/My-Projects/tree/master/C%2B%2B/C%20%2B%2B%20Big%20Integer%20Class
+github-link: https://github.com/Joe-McCann/My-Projects/tree/master/Java/Love%20Calculator/src
 ---

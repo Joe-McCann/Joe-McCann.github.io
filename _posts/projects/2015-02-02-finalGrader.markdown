@@ -30,5 +30,5 @@ main-items:
       score multiple of 5, but also where that lands in relation to the students target grade.
 
 
-github-link: https://github.com/Joe-McCann/My-Projects/tree/master/C%2B%2B/C%20%2B%2B%20Big%20Integer%20Class
+github-link: https://github.com/Joe-McCann/My-Projects/tree/master/Java/Final%20Grade%20App/src/sample
 ---
