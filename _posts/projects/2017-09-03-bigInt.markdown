@@ -25,7 +25,7 @@ main-items:
   - title: What's so cool about this?
     text: |
       Using C++ vectors, each individual digit was stored as an char in an "int" vector. While not
-      incredibly effeceint in terms of storage, it worked for my needs. From here I implimented every
+      incredibly efficient in terms of storage, it worked for my needs. From here I implemented every
       basic math function literally from the ground up; digit based addition, semi-repeated addition for multiplication, etc.
       Since everything was digit based, whenever I built a new function, I could only use the functions
       I had already wrote prior as groundwork. All of this coupled together makes this one of the projects

@@ -26,8 +26,8 @@ main-items:
   - title: What's so cool about this?
     text: |
       The application was styled using JavaFX and CSS stylesheets to make it look better than a set of plain text boxes.
-      In order to make the application work for any potential combination of names, and spit out a answer dependant
-      on those inputs, the names were converted into sets of numbers. From there some matrix calculations are
+      In order to make the application work for any potential combination of names, and spit out a answer dependent
+      on those inputs, the names were converted into sets of numbers. From there some matrix calculations were
       performed to come up with the correct output number.
 
 github-link: https://github.com/Joe-McCann/My-Projects/tree/master/Java/Love%20Calculator/src
