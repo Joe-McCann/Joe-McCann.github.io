@@ -7,6 +7,8 @@
 
 This is a Jekyll version of the theme Helios: http://html5up.net/helios
 
+This page was originally taken, and then strongly modified by me (William Joseph McCann), in order to make it easily modifyable, and modular. While the original theme was created by HTML5UP, many changes were performed originally.
+
 You can check the build here: http://kaira.one/helios_jekyll
 
 Unlike the original theme, users can change the content of the "Post" and "Article" directly under the _post directory. You can add as many posts you want, and you can even change the image by inputting a different file picture. All you have to do is create a new post with the proper file heading: ```YEAR-MM-DD-FILENAME.markdown``` and include this on the header.
