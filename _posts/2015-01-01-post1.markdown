@@ -50,9 +50,9 @@ My main contribution to the team was the heat distribution algorithm, which is w
 
 So the most important thing that we have to mention is about how heat travels. When heat moves, it follows something called the **inverse square law**.![]({{page.figures[0].image | absolute_url}}){: align="right" height="256ex" width="256ex"} In essence, this means that as you move further and further away from the source of something, the strength that you feel from that source decreases by a factor of the inverse of the distance squared. 
 
-For example, say that we were 1 meter away from a fire. If we then moved to a distance of 3 meters away from the fire, we would only feel 1/4 the strength from before. This is because we are now two meters further away, and the inverse of that distance squared is 1/4. 
+For example, say that we were 1 meter away from a fire. If we then moved to a distance of 3 meters away from the fire, we would only feel 1/4 the strength from before. This is because we are now two meters further away, and the inverse of that distance squared is 1/4. Note that this only applies for radiated heat, which is what I am modeling here. While conducted heat provides most of the heat transfer, radiated heat shows a pretty good "guesstimate" of what would be improperly heated. 
 
-This forms the foundation of what we'll need to model the brownie pan heat, because heat follows the inverse square law. Normally when modeling heat, you need to know how the heat spreads in both space *and* time, but for our purposes we assumed that we had reached some heat equilibrium state, and did not need to model what was happening with time. As such we no longer needed to solve partial differential equations (PDE's), and could instead focus on what areas of the brownies would feel the most radiated heat. 
+This forms the foundation of what we'll need to model the brownie pan heat, because heat follows the inverse square law. Normally when modeling heat, you need to know how the heat spreads in both space *and* time, but for our purposes we assumed that we had left the pan in the oven for a long period of time so that it was at the constant, max temperature. This provides a "worst case scenario" model, as the heat radiating out is a large as possible. As a nice side effect of this we no longer needed to solve partial differential equations (PDE's), and could instead focus on what areas of the brownies would feel the most radiated heat. 
 
 To do this we had to *slightly* modify the inverse square law, so that it didn't blow off to infinity as we got closer to the edges. To do this we assumed that when you touched the edge, the heat strength would be 1, so we could create the equation
 
@@ -68,7 +68,7 @@ $$
 H_{Point} = \sum_{i=0}^n\dfrac{\Delta edge}{d^2_{i}+1}
 $$
 
-Which, using a little Calculus I, looks like a Riemann Sum! We can then turn this into an integral that goes along the edge of the pan, which using some Calculus III, we can recognize specifically as a line integral. A line integral takes the form of
+Which, using a little Introductory Calculus, looks like a Riemann Sum! We can then turn this into an integral that goes along the edge of the pan, which using some Multivariate Calculus, we can recognize specifically as a line integral. A line integral takes the form of
 
 $$
 \int_C f(x,y)ds \implies \int^b_a f(g(t), h(t)) \Vert \vec{r}(t) \Vert.
