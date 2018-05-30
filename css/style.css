@@ -561,7 +561,7 @@
 		{
 			position: relative;
 			display: inline-block;
-			background: #df7366;
+			background:#df7366;
 			color: #fff;
 			text-align: center;
 			border-radius: 0.5em;
@@ -1222,3 +1222,5 @@
 			{
 				text-align: center;
 			}
+
+			#loadOverlay{display: none;}

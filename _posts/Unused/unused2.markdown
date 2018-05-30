@@ -2,7 +2,7 @@
 layout: default
 title: Hello 3
 desc: Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-img: images/pic08.jpg
+img: images/postPics/pic08.jpg
 categories: articles
 linked-url: no-sidebar.html
 ---
